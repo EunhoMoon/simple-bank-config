@@ -1,9 +1,8 @@
 spring:
   datasource:
-    url: jdbc:h2:mem:testdb
-    driverClassName: org.h2.Driver
-    username: sa
-    password: ''
+    url: jdbc:mysql://localhost:3308/loans
+    username: root
+    password: root
   h2:
     console:
       enabled: true
