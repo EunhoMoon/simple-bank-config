@@ -11,6 +11,9 @@ spring:
     hibernate:
       ddl-auto: update
     show-sql: true
+    sql:
+      init:
+        mode: always
     properties:
       hibernate:
         format_sql: true
