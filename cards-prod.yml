@@ -10,7 +10,7 @@ spring:
     database-platform: org.hibernate.dialect.H2Dialect
     hibernate:
       ddl-auto: update
-      use-new-id-generator-mappings: false
+      dialect: org.hibernate.dialect.MySQL5Dialect
     show-sql: true
     sql:
       init:
